@@ -24,7 +24,7 @@
 .icon {
   display: none;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 1240px) {
   .header {
     display: none;
   }
@@ -33,9 +33,8 @@
     display: block;
   }
 }
-@media screen and (min-width: 1240px) {
+/* @media screen and (min-width: 1240px) {
   .header {
     width: 100%;
-    /* background-color: red; */
   }
-}
+} */
