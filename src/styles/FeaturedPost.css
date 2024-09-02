@@ -1,0 +1,21 @@
+.featured-post {
+    background-color: #444;
+    color: white;
+    padding: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .featured-post h2 {
+    font-size: 28px;
+  }
+  
+  .featured-post p {
+    font-size: 18px;
+    margin: 20px 0;
+  }
+  
+  .featured-post a {
+    color: #ffd700;
+    text-decoration: none;
+  }
+  

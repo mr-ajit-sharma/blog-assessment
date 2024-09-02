@@ -1,0 +1,16 @@
+.post-item {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .post-item h3 {
+    margin-top: 0;
+  }
+  
+  .post-item a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
