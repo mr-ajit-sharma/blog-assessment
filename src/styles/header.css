@@ -1,4 +1,3 @@
-/* General styling for the header */
 .header {
   display: flex;
   justify-content: space-between;
@@ -29,10 +28,9 @@
   cursor: pointer;
 }
 
-/* Responsive design for smaller screens */
 @media screen and (max-width: 1240px) {
   .header nav ul {
-    display: none; /* Initially hide the menu */
+    display: none;
     flex-direction: column;
     align-items: center;
     position: absolute;
@@ -43,11 +41,11 @@
     padding: 0;
   }
 
-  .header nav ul.active { /* When active, display the menu */
+  .header nav ul.active { 
     display: flex;
   }
 
   .icon {
-    display: block; /* Show the hamburger menu */
+    display: block; 
   }
 }
