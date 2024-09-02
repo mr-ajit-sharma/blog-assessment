@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem 1rem;
+}
+.main a{
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 1rem;
+    width: 6rem;
+    border-radius: .5rem;
+    text-align: center;
+    font-weight: bold;
+}
+.main a:hover{
+    background-color: black;
+    color: white;
+}
