@@ -6,7 +6,7 @@ const PostList = ({ posts }) => {
   return (
     <section className="post-list">
       {posts.map((post, index) => (
-        <PostItem key={index} title={post.title} date={post.date} excerpt={post.description} />
+        <PostItem key={index} title={post.title} date={post.date} description={post.description} />
       ))}
     </section>
   );
