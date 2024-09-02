@@ -17,10 +17,12 @@ const App = () => {
 
   return (
     <div className="App">
+      <h1>hello</h1>
       <Header />
       <FeaturedPost />
       <BlogForm addPost={addPost} />
       <PostList posts={posts} />
+      
       <Footer/>
     </div>
   );
