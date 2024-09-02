@@ -1,3 +1,4 @@
+/* General styling for the header */
 .header {
   display: flex;
   justify-content: space-between;
@@ -7,8 +8,9 @@
   color: white;
 }
 
-.header h1 {
+.header-logo {
   font-size: 24px;
+  font-weight: bold;
 }
 
 .header nav ul {
@@ -21,20 +23,31 @@
 .header nav ul li {
   margin: 0 15px;
 }
+
 .icon {
   display: none;
+  cursor: pointer;
 }
+
+/* Responsive design for smaller screens */
 @media screen and (max-width: 1240px) {
-  .header {
-    display: none;
+  .header nav ul {
+    display: none; /* Initially hide the menu */
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 0;
   }
-  .header .icon {
-    float: right;
-    display: block;
+
+  .header nav ul.active { /* When active, display the menu */
+    display: flex;
+  }
+
+  .icon {
+    display: block; /* Show the hamburger menu */
   }
 }
-/* @media screen and (min-width: 1240px) {
-  .header {
-    width: 100%;
-  }
-} */

@@ -1,9 +1,12 @@
 .post-item {
-    background-color: white;
-    padding: 20px;
-    margin-bottom: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
+  padding: 1rem;
+  /* justify-content: center; */
+  margin-bottom: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* align-items: center; */
+  line-height: 1.5rem;
+  max-width: 50%;
+}
   
   .post-item h3 {
     margin-top: 0;

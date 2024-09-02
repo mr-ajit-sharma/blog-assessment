@@ -1,10 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import "../styles/header.css";
 import "boxicons";
+
 const Header = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
   return (
     <header className="header">
-      <nav>
+      <div className="header-logo">Large</div>
+      <nav className={`nav-items ${menuOpen ? "active" : ""}`}>
         <ul>
           <li>World</li>
           <li>Technology</li>
@@ -20,8 +28,8 @@ const Header = () => {
           <li>Travel</li>
         </ul>
       </nav>
-      <div className="icon">
-        <box-icon color="red" name="menu"></box-icon>
+      <div className="icon" onClick={toggleMenu}>
+        <box-icon color="white" name="menu"></box-icon>
       </div>
     </header>
   );
