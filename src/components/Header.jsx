@@ -11,7 +11,6 @@ const Header = () => {
 
   return (
     <header className="header">
-      <div className="header-logo">Large</div>
       <nav className={`nav-items ${menuOpen ? "active" : ""}`}>
         <ul>
           <li>World</li>
